@@ -10,7 +10,7 @@ body{
 }
 
 header, footer{
-  background-color:lightseagreen ;
+  background-color:rgb(21, 219, 153) ;
   color:black;
   display: grid;
   place-content: center;
