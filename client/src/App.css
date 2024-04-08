@@ -1,0 +1,23 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.page{
+  display: grid;
+  grid-template-rows: 50px 1fr 30px;
+  min-height: 100vh;
+  text-align: center;
+}
+
+header, footer{
+  background-color:lightseagreen ;
+  color:black;
+  display: grid;
+  place-content: center;
+}
+
+.user-list{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}
